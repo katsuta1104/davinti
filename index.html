@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alarm Clock</title>
+</head>
+<body>
+    <div class="container">
+        <div class="clock">
+            
+            <div style="--clr:#00ff73; --h:75px; --w:4px"  id="alarm_hour" class="hand hidden"><i></i></div>
+            <div style="--clr:#00ff73; --h:100px; --w:4px"  id="alarm_min" class="hand hidden"><i></i></div>
+            
+
+            <div style="--clr:#ff3d58; --h:68px; --w:4px"  id="hour" class="hand"><i></i></div>
+            <div style="--clr:#00a6ff; --h:92px; --w:4px"  id="min" class="hand"><i></i></div>
+            <div style="--clr:#ffffff; --h:104px; --w:2px"  id="sec" class="hand"><i></i></div>
+            
+            
+
+            <span style="--i:1;"><b>1</b></span>
+            <span style="--i:2;"><b>2</b></span>
+            <span style="--i:3;"><b>3</b></span>
+            <span style="--i:4;"><b>4</b></span>
+            <span style="--i:5;"><b>5</b></span>
+            <span style="--i:6;"><b>6</b></span>
+            <span style="--i:7;"><b>7</b></span>
+            <span style="--i:8;"><b>8</b></span>
+            <span style="--i:9;"><b>9</b></span>
+            <span style="--i:10;"><b>10</b></span>
+            <span style="--i:11;"><b>11</b></span>
+            <span style="--i:12;"><b>12</b></span>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="input">
+            <input type = "file" id = image_loader class = "hidden">
+            <button id = "image_loader_button">画像を読み込む</button>
+
+            <input type="time", id="wake_up_time">
+
+            <button type = "button" id = "wake_up_button">起きる</button>
+
+        </div>
+    
+        <div class="pics">
+            <img id="pic" src = "" alt="" class = "hidden">
+        </div>
+    </div>
+    
+    <script src="clock.js"></script>
+    <script src="alarm.js"></script>
+
+    
+</body>
+</html>
