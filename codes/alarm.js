@@ -8,7 +8,7 @@ let alarm_hour = document.getElementById('alarm_hour');
 let alarm_min = document.getElementById('alarm_min');
 
 const sound = new Audio("sounds/alarm.mp3")
-
+//動かない
 let alarm_time_h, alarm_time_m,alarm_time_s;
 
 let is_time = false;
