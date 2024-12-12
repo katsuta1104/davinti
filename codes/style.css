@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    display: block;
+
+    max-height: 100vh;
+    max-width: 100vh;
+    background-color: #a1a1a1;
+
+    margin: 0 auto;
+}
+
+
+.container {
+    display: block;
+    position: relative;
+
+}
+
+.clock {
+    position: relative;
+    
+    margin: 5% auto 2% auto;
+
+    width: 300px;
+    height: 300px;
+
+    border-radius:  50%;
+    background-color: rgba(255,255,255,0.1);
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0px opx 30px rgba(0, 0, 0, 0.9);
+
+    background-color: rgb(47, 47, 47);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock span{
+    position: absolute;
+    transform: rotate(calc(30deg * var(--i)));
+    inset: 12px;
+    text-align: center;
+}
+
+.clock span b{
+    color: white;
+    transform: rotate(calc(-30deg * var(--i)));
+    display: inline-block;
+    font-size: 20px;
+}
+
+.clock::before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.hand{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hand i{
+    position: absolute;
+    background: var(--clr);
+    width: var(--w);
+    height: var(--h);
+    border-radius: 8px;
+}
+
+.wrapper{
+    display: block;
+
+    margin: 0 auto;
+}
+
+.hidden{
+    display: none;
+}
+
+.input{
+    width: 400px;
+    height: 100px;
+
+    input[type="time"]{
+        color: black;
+    };
+
+    margin: 0 auto;
+}
+
+.input #wake_up_time{
+    width: 50%;
+    height: 30%;
+
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+
+    border-radius: 10px;
+    border: 3px solid rgb(71, 71, 71);
+
+
+    display: block;
+    margin: 0 auto;
+
+    color: red;
+}
+
+
+.input #image_loader_button{
+    width: 50%;
+    height: 30%;
+
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 10px;
+    border: 3px solid rgb(71, 71, 71);
+
+
+    color: red;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.pics{
+    margin: 0 auto;
+}
+
+.show{
+    display: block;
+    margin: 0 auto;
+
+    border: 10px solid rgb(71, 71, 71);
+    border-radius: 10px;
+
+    background-color: #fff;
+
+    max-width: 400px;
+    max-height: 400px;
+}
+
+
+
+.input #wake_up_button{
+    background-color: rgb(133, 250, 213);
+    color: blue;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 30%;
+    border: 1px solid rgb(71, 71, 71);
+}
