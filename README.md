@@ -18,6 +18,7 @@
 <strong>Overview</strong><br>
 This code is an alarm clock web application created as part of an activity called DaVinti.
 Development began in June 2024 and was completed in December.
+<br><br>
 
 <strong>How to use</strong><br>
 1. First, select the image you want to display from the file selection button.
