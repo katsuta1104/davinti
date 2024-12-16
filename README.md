@@ -1,6 +1,6 @@
 # DaVinti(学校の活動)のコード置き場です / It is a code storage area for DaVinti (school activities)
 [コード/codes](https://katsuta1104.github.io/davinti/codes/index.html)
-<h4>英語バージョンは下に存在します / English version under Japanese</h4>
+<h4>英語バージョンは下に存在します / [English version under Japanese](https://github.com/katsuta1104/davinti/blob/main/README.md#english)</h4>
 
 <strong> 概要説明 </strong><br>
 本コードはDaVintiと呼ばれる活動の一環として作った目覚まし時計Webアプリケーションです。
