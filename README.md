@@ -15,3 +15,13 @@ https://github.com/katsuta1104/davinti/main/README.md#english
 
 
 ## English
+
+### Overview
+This code is an alarm clock web application created as part of an activity called DaVinti.
+Development began in June 2024 and was completed in December.
+
+### How to use
+1. First, select the image you want to display from the file selection button.
+2. Next, set the alarm time.
+3. Notifications and alarms will sound at the set time.
+4. Press the "Wake Up" button. Then, the images uploaded in advance will be displayed.
