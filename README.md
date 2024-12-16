@@ -1,4 +1,4 @@
-# DaVinti(学校の活動)のコード置き場です / It has DaVinti(our school activities) codes.
+# DaVinti(学校の活動)のコード置き場です / It is a code storage area for DaVinti (school activities)
 [コード/codes](https://katsuta1104.github.io/davinti/codes/index.html)
 <h4>英語バージョンは下に存在します / English version under Japanese</h4>
 
